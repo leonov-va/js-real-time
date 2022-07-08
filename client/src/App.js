@@ -1,7 +1,16 @@
 import "./App.css";
+// import EventSourse from "./EventSourse";
+import WebSocket from "./WebSocket";
+// import LongPulling from "./LongPulling";
 
 function App() {
-  return <div className="App">Client</div>;
+  return (
+    <>
+      {/* <LongPulling /> */}
+      {/* <EventSourse /> */}
+      <WebSocket />
+    </>
+  );
 }
 
 export default App;
